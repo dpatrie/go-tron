@@ -1,0 +1,12 @@
+Game is a simple 100x100 matrix
+One square = 1 step
+Game loop time is configurable
+Each player has up to "game loop time" to submit action else they are assumed to be continuing in the same direction
+Maybe provide accelaration when close to another player +2 instead of +1
+When moto crash, all colored squared from this moto disapear
+
+Use NSQ for handling TCP comm. Will also enable spectator to subscribe to topic
+Build an game viewer from the get go
+
+Map viewer request full game state in first packet on from then on receive player movement only
+
