@@ -2,8 +2,8 @@ package tron
 
 type Server interface {
 	AddGame(g Game) error
-	Game(id Id) (Game, error)
-	Serve()
+	Game(id Id) (Game, bool)
+	Serve() error
 }
 
 type Game interface {
